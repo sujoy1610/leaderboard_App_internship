@@ -1,0 +1,75 @@
+==============================
+ Point Rally Leaderboard App
+==============================
+
+This project is a full-stack leaderboard application built as part of an internship task.
+
+ Tech Used:
+- Frontend: React (Vite), Tailwind CSS, Context API
+- Backend: Node.js, Express.js, MongoDB
+- Database: MongoDB with Mongoose
+- API Communication: Axios
+
+ Folder Structure:
+- frontend/    → React App
+- backend/     → Node.js API
+- README.md    → Full documentation
+- .env.example → Sample config file for backend
+
+==========================================
+ How to Run This Project Locally (2 Steps)
+==========================================
+
+STEP 1: Start the Backend
+----------------------------
+1. Open terminal and go to the backend folder:
+   cd backend
+
+2. Install backend dependencies:
+   npm install
+
+3. Rename `.env.example` to `.env` and add your MongoDB connection string:
+   MONGODB_URI=your_mongodb_connection_string
+
+4. Run the server:
+   npm run dev
+   (Backend runs at http://localhost:4000)
+
+STEP 2: Start the Frontend
+-----------------------------
+1. Open a new terminal and go to the frontend folder:
+   cd frontend
+
+2. Install frontend dependencies:
+   npm install
+
+3. Start the React app:
+   npm run dev
+   (Frontend runs at http://localhost:5173)
+
+ Now open your browser and go to http://localhost:5173 to use the app!
+
+==========================
+ Claim History & Ranking
+==========================
+- Users can be selected and claim random points
+- Live leaderboard updates by rank
+- Claim history is stored and viewable with pagination
+- Stats like total users, claims, and top score are shown
+- Top 3 users are highlighted visually
+
+==========================
+ Security Note
+==========================
+ This project does not include the actual `.env` file
+Only a `.env.example` file is included for safety
+
+==========================
+ Developer
+==========================
+Sujoy Sarkar  
+GitHub: https://github.com/sujoy1610
+
+==========================
+ Thank you for reviewing!
+==========================
