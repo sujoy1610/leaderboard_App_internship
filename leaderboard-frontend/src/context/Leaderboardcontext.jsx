@@ -11,7 +11,7 @@ export const LeaderboardProvider = ({ children }) => {
   const [selectedUserId, setSelectedUserId] = useState(null);
   const [toast, setToast] = useState(null);
 
-  const fetchUsers = async () => {
+  const fetchUsers = async () => { 
     const res = await API.get('/');
     setUsers(res.data);
   };
@@ -38,6 +38,7 @@ export const LeaderboardProvider = ({ children }) => {
     fetchUsers();
     fetchLeaderboard();
   }, []);
+  // fetch user end
 
   return (
     <LeaderboardContext.Provider
