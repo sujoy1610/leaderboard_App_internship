@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:4000/api/users',
+  baseURL: 'https://leaderboard-app-internship-leaderboard.onrender.com',
 });
 
 export default API;
